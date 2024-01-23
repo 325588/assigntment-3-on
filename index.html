@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -180,11 +181,12 @@
           
     </header>
     <main>
-      <div class="flex px-28 px-10 gap-4">
-        <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="Images/5.png" alt=""/></figure>
+      
+      <div class="lg:flex px-28 px-10 mt-8  gap-4">
+        <div class="card card-side bg-base-100 shadow-xl ">
+          <figure class="figure1"><img src="Images/5.png" alt=""/></figure>
           <div class="card-body">
-            <div class="flex gap-2">
+            <div class="lg:flex gap-2">
               <img src="Images/Frame (4).png" alt="">5.0
               <img src="Images/Frame (7).png" alt="">8000
               <img src="Images/Frame (5).png" alt="">6000
@@ -202,10 +204,10 @@
             </div>
           </div>
         </div>
-        <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="Images/6.png" alt=""/></figure>
+        <div class="card card-side bg-base-100 shadow-xl ">
+          <figure class="figure1"><img src="Images/6.png" alt=""/></figure>
           <div class="card-body">
-            <div class="flex gap-2">
+            <div class="lg:flex gap-2">
               <img src="Images/Frame (4).png" alt="">5.0
               <img src="Images/Frame (7).png" alt="">3000
               <img src="Images/Frame (5).png" alt="">2000
@@ -223,11 +225,11 @@
           </div>
         </div>
       </div> 
-      <div class="flex px-28 px-10 mt-8 gap-4">
+      <div class="lg:flex px-28 px-10 mt-8 gap-4">
         <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="Images/7.png" alt=""/></figure>
+          <figure class="figure1"><img src="Images/7.png" alt=""/></figure>
           <div class="card-body">
-            <div class="flex gap-2">
+            <div class="lg:flex gap-2">
               <img src="Images/Frame (4).png" alt="">5.0
               <img src="Images/Frame (7).png" alt="">6500
               <img src="Images/Frame (5).png" alt="">2750
@@ -245,9 +247,9 @@
           </div>
         </div>
         <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="Images/8.png" alt=""/></figure>
+          <figure class="figure1"><img src="Images/8.png" alt=""/></figure>
           <div class="card-body">
-            <div class="flex gap-2">
+            <div class="lg:flex gap-2">
               <img src="Images/Frame (4).png" alt="">5.0
               <img src="Images/Frame (7).png" alt="">50000
               <img src="Images/Frame (5).png" alt="">25000
@@ -265,11 +267,11 @@
           </div>
         </div>
       </div>
-      <div class="flex px-28 px-10 mt-8 gap-4">
+      <div class="lg:flex px-28 px-10 mt-8 gap-4">
         <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="Images/9.png" alt=""/></figure>
+          <figure class="figure1"><img src="Images/9.png" alt=""/></figure>
           <div class="card-body">
-            <div class="flex gap-2">
+            <div class="lg:flex gap-2">
               <img src="Images/Frame (4).png" alt="">5.0
               <img src="Images/Frame (7).png" alt="">9500
               <img src="Images/Frame (5).png" alt="">7026
@@ -287,9 +289,9 @@
           </div>
         </div>
         <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="Images/10.png" alt=""/></figure>
+          <figure class="figure1"><img src="Images/10.png" alt=""/></figure>
           <div class="card-body">
-            <div class="flex gap-2">
+            <div class="lg:flex gap-2">
               <img src="Images/Frame (4).png" alt="">5.0
               <img src="Images/Frame (7).png" alt="">350000
               <img src="Images/Frame (5).png" alt="">255000
@@ -307,10 +309,48 @@
           </div>
         </div>
       </div>
-
     </main>
-    <footer>
+    <footer class="footer p-10 bg-black text-white mt-24">
+      <aside>
         
+        <div class="pl-12">
+          <h1 class="text-3xl font-extrabold">Get In Touch</h1>
+          <p class="pt-8">Turn text into natural-sounding speech in 220+<br> voices across 40+ languages and variants with<br> an API powered by Google</p>
+
+        </div>
+        <div class="flex pl-10 gap-2 pt-8">
+          <img src="Images/ftrame 12.png" alt="">hockey@support.com
+          
+        </div>
+        <div class="flex pl-10 gap-2">
+          <img src="Images/Frame (11.png" alt="">(+62) 123-321-543
+        </div>
+
+      </aside> 
+      <nav class="gap-8">
+        <header class=" font-bold text-lg text-white">company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Article</a>
+        <a class="link link-hover">Legal Notice</a>
+      </nav> 
+      <nav class="gap-8">
+        <header class=" font-bold text-lg text-white">support</header> 
+        <a class="link link-hover">Help centers</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Tickets Support</a>
+        <a class="link link-hover">Contact Us</a>
+        
+      </nav> 
+      <nav class="gap-8">
+        <header class=" font-bold text-lg text-white">Services</header> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover"> Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+      </nav> 
     </footer>
 </body>
 </html>
